@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+h1 {
+  font-size: 65px;
+  font-weight: 700;
+}
+h2 {
+  font-size: 45px;
+  font-weight: 700;
+}
+h3 {
+  font-size: 30px;
+  font-weight: 600;
+}
+p {
+  font-size: 18px;
+  font-weight: 400;
+}
+.flex-container {
+  display: flex;
+}
+.donate-btn {
+  text-decoration: none;
+  padding: 10px 25px;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  background-color: #ff5959;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+#banner {
+  padding: 150px 0;
+  background-image: linear-gradient(180deg, #00000000, #000000cc),
+    url(images/donation9.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.banner-content {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+.banner-content h1 {
+  text-align: center;
+  color: white;
+}
+.banner-content p {
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+#donate-amount {
+  margin-top: 100px;
+}
+.donate-amount-top {
+  text-align: center;
+}
+.donate-amount-top p {
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.donate-amount-bottom {
+  width: 50%;
+  margin: 0 auto;
+}
+.donate-amount-bottom h3 {
+  width: 18%;
+  padding: 45px 15px;
+  text-align: center;
+  margin: 0 2%;
+}
+.donate-amount-item-active {
+  background-color: #ffeeee;
+  border: 2px solid #ff5959;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.donate-amount-form {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 40px;
+  text-align: center;
+}
+.donate-amount-form-inp {
+  text-align: center;
+  width: 100%;
+  padding: 10px 0px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  color: #b3b3b3;
+  border: 0;
+  border-bottom: 1px solid #b3b3b3;
+}
+.donate-amount-form .donate-btn {
+  border: 0;
+}
