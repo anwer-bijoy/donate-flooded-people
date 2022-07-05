@@ -235,4 +235,25 @@ footer p {
   height: 400px;
 }
 #founder-team {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.founder-team-content {
+  width: 48%;
+  margin-right: 2%;
+}
+.founder-team-content h2 {
+  padding-top: 200px;
+  margin-bottom: 30px;
+}
+.founder-team-content p {
+  margin-bottom: 50px;
+}
+.founder-team-img {
+  width: 48%;
+  margin-left: 2%;
+}
+.founder-team-img img {
+  width: 100%;
 }
