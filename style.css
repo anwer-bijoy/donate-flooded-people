@@ -17,6 +17,10 @@ h3 {
   font-size: 30px;
   font-weight: 600;
 }
+h4 {
+  font-size: 24px;
+  font-weight: 600;
+}
 p {
   font-size: 18px;
   font-weight: 400;
@@ -36,6 +40,12 @@ p {
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+}
+.bc-ffeeee {
+  background-color: #ffeeee !important;
+}
+.bc-fff4d6 {
+  background-color: #fff4d6 !important;
 }
 #banner {
   padding: 150px 0;
@@ -83,7 +93,6 @@ p {
   margin: 0 2%;
 }
 .donate-amount-item-active {
-  background-color: #ffeeee;
   border: 2px solid #ff5959;
   border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -109,4 +118,35 @@ p {
 }
 .donate-amount-form .donate-btn {
   border: 0;
+}
+#donate-plan {
+  margin-top: 150px;
+}
+.donate-plan-top {
+  text-align: center;
+}
+.donate-plan-top p {
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.donate-plan-bottom {
+  width: 80%;
+  margin: 0 auto;
+}
+.donate-plan-item {
+  background-color: #edf5f6;
+  padding: 50px 25px;
+  width: 31.33%;
+  margin: 0 1%;
+}
+.donate-plan-item img {
+  margin-bottom: 30px;
+}
+.donate-plan-item h4 {
+  margin-bottom: 25px;
+}
+.donate-plan-item2 {
+  background-color: #ffeeee;
 }
