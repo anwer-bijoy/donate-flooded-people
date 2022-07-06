@@ -48,7 +48,7 @@ p {
   background-color: #fff4d6 !important;
 }
 #banner {
-  padding: 200px 0;
+  padding: 250px 0;
   background-image: linear-gradient(180deg, #00000000, #000000cc),
     url(images/donation9.jpg);
   background-repeat: no-repeat;
@@ -149,6 +149,25 @@ p {
 }
 .donate-plan-item2 {
   background-color: #ffeeee;
+}
+#special-quote {
+  padding: 100px 0;
+  background-color: #0b0d17;
+  margin-top: 50px;
+}
+#special-quote div {
+  width: 60%;
+  margin: 0 auto;
+}
+#special-quote h2 {
+  color: white;
+  font-size: 34px;
+  font-family: 'Lobster', cursive;
+  text-align: right;
+}
+.quotion-mark {
+  color: #ff5959;
+  font-size: 100px;
 }
 #get-updates {
   margin-top: 100px;
